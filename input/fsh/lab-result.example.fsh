@@ -72,6 +72,7 @@ Title: "HIV Viral Load Suppression Most Recent Test Result Example"
 Description: "."
 * status = #final
 * subject = Reference(Patient/{{PatientID}})
+* effectiveDateTime = "2020-06-09"
 * valueString = "29"
 * interpretation = CSVLInterpretation#D
 

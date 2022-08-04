@@ -69,7 +69,7 @@ Id: hiv-viral-load-suppression-most-recent-test-date
 Title: "HIV Viral Load Suppression Most Recent Test Date"
 Description: "This profile is to determine the date of the HIV Test"
 * subject 1..1
-* code = CSHIVObsCodes#HIV-RECENCY-TEST-CONDUCTED "VL most recent test date"
+* code = CSHIVObsCodes#VL-MOST-RECENT-TEST-DATE "VL most recent test date"
 * valueDateTime 1..1
 
 Profile: ViralLoadSuppressionMostRecentTestResult
@@ -78,7 +78,7 @@ Id: hiv-viral-load-suppression-most-recent-test-result
 Title: "HIV Viral Load Suppression Most Recent Test Result"
 Description: "This profile is to determine the result of the HIV Test"
 * subject 1..1
-* code = CSHIVObsCodes#HIV-RECENCY-TEST-CONDUCTED "VL most recent test result"
+* code = CSHIVObsCodes#VL-MOST-RECENT-TEST-RESULT "VL most recent test result"
 * valueInteger 1..1
 * interpretation 1..1 
 * interpretation from VSVLInterpretation
